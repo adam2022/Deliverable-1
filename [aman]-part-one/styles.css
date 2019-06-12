@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li {
+  text-decoration: none;
+  color: #88898B;
+}
+
+a:hover {
+  color: #FF4850;
+}
+
+a {
+text-decoration: none;
+color: #88898B;
+}
+
+h2 {
+  display: inline-flex;
+  flex-wrap: wrap;
+  color: #88898B;
+}
+
+body {
+  display: flex;
+  background-image: url("bulldog.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Fira Sans', sans-serif;
+  background-color: #F0ECEE;
+}
+
+ul {
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style-type: none;
+    font-weight: 300;
+    align-items: baseline;
+  }
+
+header{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: #fff;
+	padding: 35px 100px 0;
+  font-weight: 400;
+}
+
+header nav{
+	display: inline-flex;
+}
+
+header nav li{
+	margin: 0 15px;
+}
+
+header nav li:first-child{
+	margin-left: 0;
+}
+
+header nav li:last-child{
+	margin-right: 0;
+}
+
+h2 {
+  color: black;
+}
+
+span {
+  color: #FF4850;
+}
+
+p {
+  font-size: 40px;
+  padding-bottom: 35px;
+  font-weight: 600;
+  font-style: bold;
+}
+
+.find {
+  font-weight: 300;
+  font-size: 25px;
+  color: #88898B;
+}
+
+.adopt {
+  display: inline-flex;
+  flex-wrap: wrap;
+}
+
+.image {
+  display: flex;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.dog {
+ height: 20%;
+ display: flex;
+ justify-content: center;
+ flex-direction: column;
+ text-align: left;
+ padding-left: 10%;
+ justify-content: center;
+ min-height: 100vh;
+ padding-top: 15%;
+}
+
+
+.submit-btn {
+  display: inline-flex;
+  width: 50%;
+  color: #88898B;
+  background-color: #FF4850;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+.contact {
+  display: inline-flex;
+  color: #88898B;
+  background-color: #FF4850;
+  padding: 10px;
+  border-radius: 15px;
+
+}
+
+.submit-btn:hover {
+  background-color: #CCC;
+  color: #FF4850;
+}
+
+.contact:hover {
+  background-color: #CCC;
+  color: #FF4850;
+}
+
+@media (max-width: 768px){
+	header{
+    display: block;
+    align-items: left;
+	}
+
+p {
+  display: block;
+  font-size: 30px;
+  font-weight: 600;
+  text-align: left;
+}
+
+.find {
+  display: inline-flex;
+  font-size: 12px;
+  white-space: pre;
+  text-align: left;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.submit-btn {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+}
